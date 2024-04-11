@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills</title>
+    <link rel="stylesheet" type="text/css" href="css/skills.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display+SC"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      document.documentElement.className += " js";
+    </script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <nav class="menu" data-menu="suave">
+        <button data-menu="button" aria-expanded="false" aria-controls="menu">
+          Menu
+        </button>
+        <ul data-menu="list" id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li data-dropdown>
+            <a>Resume</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a
+                  href="docs/Jaqueline Duarte.pdf"
+                  download="docs/Jaqueline Duarte.pdf"
+                  >Resume</a
+                >
+              </li>
+              <li>
+                <a
+                  href="docs/CoverLetter-Jaqueline Duarte.pdf"
+                  download="docs/CoverLetter-Jaqueline Duarte.pdf"
+                  >Cover Letter</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="#" id="openModal">Contact →</a></li>
+        </ul>
+      </nav>
+      <section class="grid-section skills" id="skills">
+        <h1 class="title">Skills</h1>
+
+        <section class="skills-analisys">
+          <h2>Data Analysis</h2>
+          <h3>Data Manipulation:</h3>
+          <ul>
+            <li>
+              Proficient in cleaning, preprocessing, and transforming data using
+              tools like pandas and NumPy.
+            </li>
+            <li>
+              Skilled in handling missing data, outliers, and inconsistencies in
+              datasets.
+            </li>
+            <li>
+              Experienced in reshaping and aggregating data to prepare it for
+              analysis.
+            </li>
+          </ul>
+          <h3>Exploratory Data Analysis (EDA):</h3>
+          <ul>
+            <li>
+              Capable of performing EDA to understand the underlying patterns
+              and relationships in data.
+            </li>
+            <li>
+              Skilled in using descriptive statistics and visualization
+              techniques to explore datasets.
+            </li>
+            <li>
+              Experienced in identifying trends, anomalies, and outliers in
+              data.
+            </li>
+          </ul>
+          <h3>Statistical Analysis:</h3>
+          <ul>
+            <li>
+              Capable of performing statistical analysis to derive insights from
+              data.
+            </li>
+            <li>
+              Proficient in conducting hypothesis testing and interpreting
+              statistical results.
+            </li>
+            <li>
+              Experienced in interpreting and communicating statistical results
+              to stakeholders.
+            </li>
+          </ul>
+          <h3>Data Mining:</h3>
+          <ul>
+            <li>
+              Familiar with data mining techniques for discovering patterns and
+              insights from large datasets.
+            </li>
+            <li>
+              Skilled in using tools like Python and R for data mining tasks.
+            </li>
+            <li>
+              Capable of applying data mining algorithms such as association
+              rule mining and clustering.
+            </li>
+          </ul>
+        </section>
+        <hr />
+        <section class="skills-science">
+          <h2>Data Science</h2>
+          <h3>Python for Data Science:</h3>
+          <ul>
+            <li>
+              Proficient in using Python for data manipulation, analysis, and
+              modeling.
+            </li>
+            <li>
+              Skilled in utilizing libraries like pandas, NumPy, Matplotlib, and
+              scikit-learn for data science tasks.
+            </li>
+            <li>
+              Experienced in machine learning algorithms and frameworks such as
+              TensorFlow and PyTorch.
+            </li>
+            <li>
+              Capable of building and deploying machine learning models into
+              production environments.
+            </li>
+          </ul>
+          <h3>Statistical Analysis:</h3>
+          <ul>
+            <li>
+              Capable of performing statistical analysis to derive insights from
+              data.
+            </li>
+            <li>
+              Proficient in hypothesis testing, regression analysis, and other
+              statistical techniques.
+            </li>
+            <li>
+              Experienced in interpreting and communicating statistical results
+              to stakeholders.
+            </li>
+          </ul>
+          <h3>Machine Learning:</h3>
+          <ul>
+            <li>
+              Skilled in supervised and unsupervised machine learning algorithms
+              for classification, regression, clustering, and dimensionality
+              reduction.
+            </li>
+            <li>
+              Experienced in model evaluation and validation techniques such as
+              cross-validation and hyperparameter tuning.
+            </li>
+            <li>
+              Capable of building and deploying machine learning models into
+              production environments.
+            </li>
+          </ul>
+          <h3>Data Visualization:</h3>
+          <ul>
+            <li>
+              Capable of creating informative and visually appealing data
+              visualizations to communicate insights effectively.
+            </li>
+            <li>
+              Experienced in using tools like Matplotlib,
+              Tableau, and Power BI for data visualization.
+            </li>
+            <li>
+              Skilled in designing dashboards and reports to convey complex
+              information to stakeholders.
+            </li>
+          </ul>
+        </section>
+        <hr />
+        <section class="skills-frontend">
+          <h2>Frontend Development</h2>
+          <h3>HTML/CSS/JavaScript</h3>
+          <ul>
+            <li>
+              Proficient in creating high-quality websites using vanilla
+              HTML/CSS/JavaScript.
+            </li>
+            <li>
+              Experienced in utilizing CSS frameworks such as Bootstrap and
+              Tailwind CSS for efficient styling.
+            </li>
+            <li>
+              Capable of creating interactive website features using JavaScript.
+            </li>
+          </ul>
+          <h3>React:</h3>
+          <ul>
+            <li>Skilled in developing web applications using React.</li>
+            <li>Proficient in defining and managing components using JSX.</li>
+            <li>Experienced in managing state using hooks and reducers.</li>
+            <li>
+              Capable of implementing routing using React Router for creating
+              Single Page Applications (SPAs).
+            </li>
+          </ul>
+          <h3>Angular:</h3>
+          <ul>
+            <li>Proficient in rapidly developing Angular web applications.</li>
+            <li>
+              Experienced in generating services, pipes, and components using
+              Angular CLI commands.
+            </li>
+            <li>Skilled in managing routes using the AppRoutingModule.</li>
+            <li>Capable of implementing two-way binding using ngModel.</li>
+          </ul>
+        </section>
+        <hr />
+        <section class="skills-backend">
+          <h2>Backend Development</h2>
+          <h3>Java and Java Spring:</h3>
+          <ul>
+            <li>
+              Capable of applying Object-Oriented Programming (OOP) principles
+              to create Java desktop applications using JavaFX.
+            </li>
+            <li>
+              Proficient in quickly bootstrapping web applications using Spring
+              Boot.
+            </li>
+            <li>
+              Experienced in using Java with database drivers as well as
+              Hibernate.
+            </li>
+          </ul>
+          <h3>C# and ASP.NET:</h3>
+          <ul>
+            <li>Skilled in building desktop applications using C#.</li>
+            <li>
+              Proficient in creating web applications using ASP.NET Core MVC.
+            </li>
+            <li>
+              Capable of utilizing Razor pages in conjunction with ASP.NET Core.
+            </li>
+            <li>Experienced in creating web APIs with ASP.NET Core.</li>
+          </ul>
+          <h3>JavaScript, Node, and Express:</h3>
+          <ul>
+            <li>
+              Proficient in quickly creating web servers using Express.js.
+            </li>
+            <li>
+              Experienced in finding and utilizing Node modules to expedite
+              development.
+            </li>
+            <li>
+              Skilled in configuring npm build options to best fit project
+              goals.
+            </li>
+            <li>
+              Capable of using Mongoose and MongoDB with Express.js to create
+              full-stack applications.
+            </li>
+          </ul>
+          <h3>Python and Flask:</h3>
+          <ul>
+            <li>Experienced in building desktop applications using Python.</li>
+            <li>Proficient in analyzing data using NumPy and Pandas.</li>
+            <li>Skilled in creating RESTful APIs using Flask.</li>
+          </ul>
+        </section>
+        <hr />
+        <section class="skills-databases">
+          <h2>Databases</h2>
+          <h3>Relational Databases</h3>
+          <ul>
+            <li>
+              Proficient in using SQL-based relational database management
+              systems (RDBMS) such as MySQL and PostgreSQL.
+            </li>
+            <li>
+              Experienced in creating and managing database objects using SQL
+              and Data Definition Language (DDL).
+            </li>
+            <li>
+              Capable of integrating databases with web applications using
+              drivers or Object-Relational Mapping (ORM) tools.
+            </li>
+          </ul>
+          <h3>NoSQL</h3>
+          <ul>
+            <li>
+              Skilled in creating and managing document databases like MongoDB.
+            </li>
+            <li>
+              Familiar with graph databases for storing data using relationships
+              and nodes.
+            </li>
+            <li>
+              Capable of implementing solutions using JSON for data storage and
+              retrieval.
+            </li>
+          </ul>
+        </section>
+      </section>
+    </div>
+    <section class="modal-container" data-modal="container">
+      <div class="modal">
+        <button data-modal="fechar" class="fechar">X</button>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+          <p><strong>Phone Number:</strong> +1 (416) 856-4171</p>
+          <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/ajaqueduarte" target="_blank"
+              >ajaqueduarte</a
+            >
+          </p>
+          <p>
+            <strong>LinkedIn:</strong>
+            <a
+              href="https://www.linkedin.com/in/jaqueline-duarte-medeiros-17a419148/"
+              target="_blank"
+              >Jaqueline Duarte Medeiros</a
+            >
+          </p>
+        </div>
+
+        <!-- Email Form -->
+        <form action="https://formspree.io/f/mjvneopb" method="POST">
+          <label for="contact-email">Sending to jaqueduarteom@gmail.com</label>
+          <input
+            type="email"
+            id="contact-email"
+            placeholder="Input your email"
+            name="contactEmail"
+            required
+          />
+
+          <label for="contact-message">Message</label>
+          <textarea
+            id="contact-message"
+            name="contactMessage"
+            rows="4"
+            required
+          ></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>

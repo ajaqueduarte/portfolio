@@ -1,0 +1,128 @@
+@import 'dropdown-menu.css';
+@import 'menu-mobile.css';
+@import 'modal.css';
+body, h1, h2, ul, li, p, dd, dt, dl {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  
+  body {
+    background: #8FB9AA;
+    color: #222;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+  }
+  .menu {
+    grid-column: 3 / 5;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #FB5;
+  }
+  
+  .menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    list-style: none;
+  }
+
+  .menu li a {
+    display: block;
+    padding: 10px;
+    margin-right: 10px;
+    color: #222;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: .1em;
+  }
+
+  .title {
+    font-family: 'Playfair Display SC', georgia;
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    grid-column: 1 / 4;
+  }  
+
+  h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-bottom: 1rem;
+    color: #304D63;
+  }
+  .grid-section {
+    grid-column: 2 / 4;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    /* grid-template-columns: 300px 300px 1fr; */
+    grid-gap: 20px;
+    margin-bottom: 4rem;
+  }
+
+  .skills li{
+    color: #333;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  
+  }
+  
+  /* Add this CSS to your existing styles */
+
+/* Style for each skill section */
+.skills section {
+  margin-top: 50px; /* Adjust as needed */
+}
+
+/* Style for each skill section title */
+.skills section h2 {
+  font-size: 2rem; /* Adjust as needed */
+  color: #304D63; /* Adjust as needed */
+  text-align: center;
+
+}
+
+.skills section ul{
+  padding-left: 50px;
+}
+
+/* Style for each skill list item */
+.skills section ul li {
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+/* Style for skill list item title */
+.skills section h3 {
+  margin-bottom: 5px; /* Adjust as needed */
+  font-size: 1.2rem; /* Adjust as needed */
+  font-family: Montserrat, sans-serif;
+  color: #304D63;
+
+}
+
+/* Style for skill list item content */
+.skills section ul p {
+  margin-left: 20px; /* Adjust as needed */
+}
+
+/* .skills h3::before {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 10px;
+  margin-right: 10px;
+  background: #FB5;
+} */
